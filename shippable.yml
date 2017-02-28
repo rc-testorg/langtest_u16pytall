@@ -17,7 +17,7 @@ python:
 build:
   pre_ci_boot:
     image_name: drydock/u16pytall
-    image_tag: prod
+    image_tag: master
     pull: true
     options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
   ci:
