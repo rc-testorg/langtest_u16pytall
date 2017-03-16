@@ -2,6 +2,9 @@
 # Language setting
 language: python
 
+services:
+  - redis
+
 # Version number
 python:
   - 2.6
