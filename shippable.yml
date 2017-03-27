@@ -3,20 +3,20 @@
 language: python
 
 services:
-  - cassandra 
-  - couchdb 
- # - elasticsearch 
-  - memcached 
-  - mongodb 
-  - mysql 
-  - neo4j 
-  - postgres 
-  - rabbitmq 
-  - redis 
-  - rethinkdb 
-  - riak 
-  - selenium 
-  - sqllite 
+ # - cassandra 
+  #- couchdb 
+  - elasticsearch 
+ # - memcached 
+  #- mongodb 
+  #- mysql 
+  #- neo4j 
+  #- postgres 
+  #- rabbitmq 
+  #- redis 
+  #- rethinkdb 
+  #- riak 
+  #- selenium 
+  #- sqllite 
 
 # Version number
 python:
