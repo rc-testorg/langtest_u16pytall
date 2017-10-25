@@ -1,4 +1,3 @@
-
 # Language setting
 language: python
 
@@ -7,17 +6,16 @@ python:
   - 2.7
   - 3.4
   - 3.5
+  - 3.6
   - pypy
   - pypy3
-  - 3.6
+  
 build:
   pre_ci_boot:
     image_name: drydock/u16pytall
     image_tag: master
     pull: true
     options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
+    
   ci:
     - python --version
-
-
-
